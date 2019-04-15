@@ -3,14 +3,18 @@ body{
 	background-size: cover;
 }
 
-.liberty, .rushmore, .bryce{
+.liberty, .rushmore, .bryce, .house{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
 	padding: 0.5em;
 }
 
-.liberty img, .bryce img{
+.house .text, .rushmore .text{
+	border-radius: 0px 20px 20px 0px;
+}
+
+.liberty img, .bryce img, .house img, .rushmore img{
 	width: 500px;
 	height: 330px;
 }
