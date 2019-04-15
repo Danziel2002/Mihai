@@ -1,0 +1,20 @@
+body{
+	background-image: url('../Imgs/mainBg.jpg');
+
+}
+
+img{
+	width: 90px;
+	height: 170px;
+	overflow: visible;
+}
+.list img{
+	padding: 0.5em;
+	box-shadow: none;
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

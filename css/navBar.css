@@ -1,0 +1,43 @@
+.navBar{
+	background-color: rgba(255, 118, 117, 0.8);
+	display: flex;
+	border-bottom: 1px solid black;
+	color: white;
+	justify-content: space-between;
+	align-items: baseline;
+	text-align: center;
+	position: sticky;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo{
+	  padding: 0.3em
+}
+
+
+.tags h3 {
+  text-decoration: none;
+  display: block;
+  padding: 0.3em;
+  margin-bottom: 4%;
+  color: white;
+}
+
+.navBar .tags{
+	display: flex;
+	align-self: flex-end;
+}
+
+.tags h3:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}

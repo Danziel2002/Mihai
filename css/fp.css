@@ -1,0 +1,23 @@
+body{
+	background-image: url('../Imgs/mainBg.jpg');
+	background-size: cover;
+}
+
+.liberty, .rushmore, .bryce{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0.5em;
+}
+
+.liberty img, .bryce img{
+	width: 500px;
+	height: 330px;
+}
+
+.text{
+	padding: 0.5em;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 2px solid rgba(0,0,0,0.2);
+	border-radius: 20px 0px 0px 20px;
+}
