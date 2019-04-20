@@ -1,12 +1,31 @@
 .navBar{
-	background-color: rgba(255, 118, 117, 0.8);
+	background-color: rgba(255, 255, 255, 0.8);
 	display: flex;
-	border-bottom: 1px solid black;
-	color: white;
-	justify-content: space-between;
+	color: black;
 	align-items: baseline;
-	text-align: center;
-	position: sticky;
+	flex-direction: column;
+	width: 10%;
+	height: 100%;
+}
+.logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo img{
+		padding: 0.6em;
+		height: 90px;
+
+	}
+
+.burger h3{
+	
+	font-size: 200%;
+	margin: 0px;
+	width: 100%;
+
 }
 body{
 	margin: 0px;
@@ -15,26 +34,22 @@ body{
 
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-}
-
-.logo{
-	  padding: 0.3em
 }
 
 
 .tags h3 {
   text-decoration: none;
   display: block;
-  padding: 0.3em;
-  margin-bottom: 4%;
-  color: white;
+  padding: 0.5em;
+  color: black;
+  width: 75%;
 }
 
 .navBar .tags{
+	flex-direction: column;
 	display: flex;
-	align-self: flex-end;
 }
 
 .tags h3:hover{
